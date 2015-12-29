@@ -1,5 +1,5 @@
 {
-  "name": "Paw-RubyNetHTTPCodeGenerator",
+  "name": "Paw-RubyAFMotionCodeGenerator",
   "version": "1.0.0",
   "devDependencies": {
     "coffee-script": "latest",
@@ -11,6 +11,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:luckymarmot/Paw-RubyNetHTTPCodeGenerator.git"
+    "url": "https://github.com/cyberfox/Paw-RubyMotionCodeGenerator.git"
   }
 }

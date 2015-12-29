@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/luckymarmot/Paw-RubyNetHTTPCodeGenerator.svg?branch=master)](https://travis-ci.org/luckymarmot/Paw-RubyNetHTTPCodeGenerator)
+# Rubymotion + AFMotion Code Generator (Paw Extension)
 
-# Ruby + Net::HTTP Code Generator (Paw Extension)
-
-A [Paw Extension](http://luckymarmot.com/paw/extensions/) that generates Ruby code for the [Net::HTTP](http://ruby-doc.org/stdlib-2.1.5/libdoc/net/http/rdoc/Net/HTTP.html) library.
+A [Paw Extension](http://luckymarmot.com/paw/extensions/) that generates Ruby code for the [AFMotion](https://github.com/clayallsopp/afmotion) library that provides a thin layer over AFNetworking for RubyMotion.
 
 ## Installation
 
@@ -24,11 +22,12 @@ cake watch
 
 This Paw Extension is released under the [MIT License](LICENSE). Feel free to fork, and modify!
 
-Copyright © 2014 Paw Inc.
+Copyright © 2015 CyberFOX Software, Inc.
 
 ## Contributors
 
-Created by Quentin Rousseau ([@kwent](https://github.com/kwent)). See [Contributors](https://github.com/luckymarmot/Paw-RubyNetHTTPCodeGenerator/graphs/contributors).
+Created by Morgan Schweers ([@cyberfox](https://github.com/cyberfox)).
+Based on code created by Quentin Rousseau ([@kwent](https://github.com/kwent)). See [Contributors](https://github.com/luckymarmot/Paw-RubyNetHTTPCodeGenerator/graphs/contributors).
 
 ## Credits
 

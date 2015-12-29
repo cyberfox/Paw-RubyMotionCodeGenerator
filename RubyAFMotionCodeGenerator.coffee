@@ -9,7 +9,7 @@
 addslashes = (str) ->
     ("#{str}").replace(/[\\"]/g, '\\$&')
 
-RubyNetHTTPCodeGenerator = ->
+RubyAFMotionCodeGenerator = ->
 
     @url = (request) ->
         return {
@@ -106,11 +106,11 @@ RubyNetHTTPCodeGenerator = ->
     return
 
 
-RubyNetHTTPCodeGenerator.identifier =
-    "com.luckymarmot.PawExtensions.RubyNetHTTPCodeGenerator"
-RubyNetHTTPCodeGenerator.title =
+RubyAFMotionCodeGenerator.identifier =
+    "com.luckymarmot.PawExtensions.RubyAFMotionCodeGenerator"
+RubyAFMotionCodeGenerator.title =
     "Ruby (Net::HTTP)"
-RubyNetHTTPCodeGenerator.fileExtension = "rb"
-RubyNetHTTPCodeGenerator.languageHighlighter = "ruby"
+RubyAFMotionCodeGenerator.fileExtension = "rb"
+RubyAFMotionCodeGenerator.languageHighlighter = "ruby"
 
-registerCodeGenerator RubyNetHTTPCodeGenerator
+registerCodeGenerator RubyAFMotionCodeGenerator
